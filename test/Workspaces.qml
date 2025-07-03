@@ -10,7 +10,7 @@ BarBlock {
   id: workspacesContainer
   anchors.horizontalCenter: parent.horizontalCenter
   width: 36
-  height: workspacesItem.height + Appearence.spacing.big
+  height: workspacesItem.height 
 
     Column {
         id: workspacesItem

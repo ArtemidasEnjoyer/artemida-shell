@@ -7,12 +7,15 @@ directory
 
 and install quickshell
 
-for Arch
+for Arch:
   `yay -S quickshell-git`
   `paru -S quickshell-git`
 for another distribution idk
 
+
+
 dependency
 `jq` - for weather
+`hyprland` - window manager
 
 

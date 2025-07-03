@@ -15,6 +15,6 @@ BarBlock {
     font.weight: 900
     font.pixelSize: Appearence.font.size.big
     text: Process.weather
-    rotation: 90
+    font.family: Appearence.font.family.propo
   }
 }

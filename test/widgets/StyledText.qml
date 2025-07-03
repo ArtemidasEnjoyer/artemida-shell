@@ -11,7 +11,6 @@ Text {
   property int animateDuration: Appearence.anim.duration.small
 
   renderType: Text.NativeRendering
-  anchors.fill: parent.fill
   textFormat: Text.PlainText
   color: Colors.inverse_surface
   font.family: Appearence.font.family.propo
