@@ -18,4 +18,8 @@ dependency
 `jq` - for weather
 `hyprland` - window manager
 
+Preview
+
+![image](Preview/preview_of_bar.png)
+
 
