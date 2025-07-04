@@ -43,12 +43,6 @@ BarBlock {
                             Hyprland.dispatch(`movetoworkspace ${modelData.id}`)
                         }
                     }
-                    onWheel: wheel => {
-                      if (wheel.angleDelta.y > 0)
-                      {Hyprland.dispatch(`workspace e+1`)}
-                      if (wheel.angleDelta.y < 0) 
-                      {Hyprland.dispatch(`workspace e-1`)}
-                    }
                 }
             }
         }
@@ -61,6 +55,16 @@ BarBlock {
         }
 
         Component.onCompleted: Hyprland.refreshWorkspaces()
+
+    }
+    MouseArea {
+        anchors.fill: parent
+        onWheel: wheel => {
+                     if (wheel.angleDelta.y > 0)
+                     {Hyprland.dispatch(`workspace e+1`)}
+                     if (wheel.angleDelta.y < 0)
+                     {Hyprland.dispatch(`workspace e-1`)}
+                 }
 
     }
 }

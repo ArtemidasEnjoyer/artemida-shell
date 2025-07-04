@@ -1,0 +1,11 @@
+[config]
+# your config
+
+
+#just paste it in your matugen.toml and copy template
+[templates.quickshell]
+input_path = './templates/Colors.qml'
+output_path = '~/.config/quickshell/test/conf/Colors.qml'
+set = true
+
+
