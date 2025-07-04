@@ -12,7 +12,7 @@ Scope {
             property var modelData
             screen: modelData
             id: bar
-            color: Colors.surface
+            color: Colors.on_primary_fixed
 
             Behavior on color {ColorAnimation {
               duration: Appearence.anim.duration.large

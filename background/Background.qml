@@ -1,5 +1,6 @@
 import QtQuick
 import Quickshell
+import QtQuick.Shapes
 import Quickshell.Wayland
 import "root:/test/conf"
 
@@ -19,6 +20,8 @@ Scope {
         right: true
         top: true
       }
+      // Roundings {}
+
       ClockWidget {}
     }
   }
