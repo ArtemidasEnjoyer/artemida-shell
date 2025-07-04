@@ -15,9 +15,9 @@ for another distribution idk
 
 
 dependency
-`jq` - for weather
-`hyprland` - window manager
-`matugen` = for colors (i know about built in color function in quickshell, but i prefer to use matugen)
+ - `jq` - for weather
+ - `hyprland` - window manager
+ - `matugen` -  for colors (i know about built in color function in quickshell, but i prefer to use matugen)
 
 
 Preview
