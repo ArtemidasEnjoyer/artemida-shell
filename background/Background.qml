@@ -19,13 +19,6 @@ Scope {
         right: true
         top: true
       }
-      // Rectangle {
-      //   width: 500
-      //   height: 500
-      //   anchors.verticalCenter: parent.verticalCenter
-      //   anchors.horizontalCenter: parent.horizontalCenter
-      //   color: Colors.primary 
-      // }
       ClockWidget {}
     }
   }

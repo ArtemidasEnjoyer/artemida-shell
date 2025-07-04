@@ -1,6 +1,7 @@
 *ARTEMIDA shell*
 
-_is a bad written shell in quickshell inspired by [celestia-shell](https://github.com/Ayanashi/Celestia)
+_is a bad written_ shell in quickshell inspired by [celestia-shell](https://github.com/Ayanashi/Celestia)
+
 for installing clone repository into 
   .config/quickshell 
 directory
@@ -8,10 +9,9 @@ directory
 and install quickshell
 
 for Arch:
-  `yay -S quickshell-git`
-  `paru -S quickshell-git`
+  -`yay -S quickshell-git`
+  -`paru -S quickshell-git`
 for another distribution idk
-
 
 
 dependency
@@ -20,7 +20,7 @@ dependency
  - `matugen` -  for colors (i know about built in color function in quickshell, but i prefer to use matugen)
 
 
-Preview
+**Preview**
 
 ![image](Preview/preview_of_bar.png)
 

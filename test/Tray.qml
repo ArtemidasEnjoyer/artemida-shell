@@ -1,4 +1,5 @@
 import QtQuick
+import QtQuick.Controls
 import QtQuick.Layouts
 import Quickshell
 import Quickshell.Services.SystemTray
@@ -40,25 +41,39 @@ BarBlock {
                     height: parent.height
                     antialiasing: true
                     asynchronous: true
+                
+                  }
+                MouseArea {
+                    id: mouseTrayArea
+                    anchors.fill: parent
+                    acceptedButtons: Qt.LeftButton | Qt.RightButton | Qt.MiddleButton
+                    hoverEnabled: true
+                    onClicked: event => {
+                                   if (event.button == Qt.LeftButton) {
+                                       modelData.activate();
+                                   } else if (event.button == Qt.MiddleButton) {
+                                       modelData.secondaryActivate();
+                                   } else if (event.button == Qt.RightButton) {
+                                       menuAnchor.open();
+                                   }
+                               }
+                             }
+
+                QsMenuAnchor {
+                    id: menuAnchor
+
+                    menu: modelData.menu
+                    anchor.window: mouseTrayArea.QsWindow.window
+                    anchor.adjustment: PopupAdjustment.flip
+
+                    anchor.onAnchoring: {
+                        const window = mouseTrayArea.QsWindow.window;
+                        const widgetRect = window.contentItem.mapFromItem(mouseTrayArea, 0, mouseTrayArea.height, mouseTrayArea.width, mouseTrayArea.height);
+
+                        menuAnchor.anchor.rect = widgetRect;
+                    }
+
                 }
-                // MouseArea {
-                //   anchors.fill: parent.fill
-                //   acceptedButtons: Qt.LeftButton | Qt.RightButton | Qt.MiddleButton
-                //   onClicked: mouse => {
-                //     if (mouse.button === Qt.LeftButton) {
-                //       modelData.activate()
-                //     } else if (mouse.button === Qt.MiddleButton) {
-                //       modelData.secondaryActivate()
-                //     } else if (mouse.button === Qt.RightButton && model.hasMenu) {
-                //       modelData(parent, mouse.x, mouse.y)
-                //     }
-                //
-                //   }
-                //
-                //   onWheel: wheel => {
-                //     model.scroll(wheel.angleDelta.y, false)
-                //   }
-                // }
             }
 
         }

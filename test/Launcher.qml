@@ -9,9 +9,9 @@ BarBlock {
 
   StyledText {
     id: launcherText
-    text: ""
+    text: "󰆧"
     color: Colors.primary
-    font.pixelSize: Appearence.font.size.big
+    font.pixelSize: Appearence.font.size.large
     anchors.horizontalCenter: parent.horizontalCenter
   }
 }
