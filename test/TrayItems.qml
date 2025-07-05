@@ -6,7 +6,6 @@ import Quickshell
 import Quickshell.Services.SystemTray
 import Quickshell.Widgets
 import "conf"
-import "widgets"
 
             Rectangle {
               id: root 

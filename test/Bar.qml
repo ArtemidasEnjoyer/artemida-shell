@@ -12,7 +12,7 @@ Scope {
             property var modelData
             screen: modelData
             id: bar
-            color: Colors.surface + "aa"
+            color: Colors.surface 
 
             WlrLayershell.namespace: "bar"
 
