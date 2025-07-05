@@ -10,8 +10,8 @@ and install quickshell
 
 for Arch:
 
-  -`yay -S quickshell-git`
-  -`paru -S quickshell-git`
+  - `yay -S quickshell-git`
+  - `paru -S quickshell-git`
 
 for another distribution idk
 
