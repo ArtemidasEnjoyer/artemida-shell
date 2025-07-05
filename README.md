@@ -20,10 +20,13 @@ dependency
 
   -`jq` - for weather
   -`hyprland` - window manager
+  -`mpvpaper` - for live wallpaper
   -`matugen` -  for colors (i know about built in color function in quickshell, but i prefer to use matugen)
 
 
 **Preview**
-![image](Preview/preview_of_bar.png)
 
+
+![image](Preview/preview_of_bar.png)
+![image](Preview/transparent_bar.png)
 

@@ -1,8 +1,8 @@
 import Quickshell
+import Quickshell.Wayland
 import QtQuick
 import QtQuick.Layouts
 import "conf"
-import "widgets"
 
 Scope {
     Variants {
@@ -12,7 +12,9 @@ Scope {
             property var modelData
             screen: modelData
             id: bar
-            color: Colors.on_primary_fixed
+            color: Colors.surface + "aa"
+
+            WlrLayershell.namespace: "bar"
 
             Behavior on color {ColorAnimation {
               duration: Appearence.anim.duration.large
