@@ -5,25 +5,24 @@ import Quickshell.Wayland
 import "root:/test/conf"
 
 Scope {
-  Variants {
-    model: Quickshell.screens
-    PanelWindow {
-      property var modelData
-      screen: modelData
-      id: background
-      color: "transparent"
-      WlrLayershell.layer: WlrLayer.Bottom
+    Variants {
+        model: Quickshell.screens
+        PanelWindow {
+            id: background
+            property var modelData
+            screen: modelData
+            color: "transparent"
+            WlrLayershell.layer: WlrLayer.Bottom
 
-      anchors {
-        bottom: true
-        left: true
-        right: true
-        top: true
-      }
-      // Roundings {}
+            anchors {
+                bottom: true
+                left: true
+                right: true
+                top: true
+            }
+            // Roundings {}
 
-      ClockWidget {}
+            ClockWidget {}
+        }
     }
-  }
-
 }

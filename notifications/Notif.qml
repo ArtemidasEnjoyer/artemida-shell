@@ -1,7 +1,5 @@
 import QtQuick
 import Quickshell
-import QtQuick.Layouts
-import Quickshell.Services.Notifications
 import Quickshell.Wayland
 
 PanelWindow {

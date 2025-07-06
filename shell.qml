@@ -5,12 +5,10 @@ import "root:/test"
 import "background"
 import "launchers"
 import "notifications"
-Scope {
-  Bar {}
-  Background {}
-  Notif {}
 
-  // App {}
-  // Launchers {}
-  // Window {}
+Scope {
+    Bar {}
+    Background {}
+    Notif {}
+
 }

@@ -10,7 +10,7 @@ import "widgets"
 BarBlock {
     id: tray
     radius: Appearence.rounding.small
-    color:  "transparent"
+    color: "transparent"
     height: tray_column.height
     width: parent.width - Appearence.padding.small
 
@@ -28,5 +28,4 @@ BarBlock {
             TrayItems {}
         }
     }
-
 }

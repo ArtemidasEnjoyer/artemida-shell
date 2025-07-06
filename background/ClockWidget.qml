@@ -8,18 +8,18 @@ import "root:/test/"
 Rectangle {
     id: clockWidget
     color: "transparent"
-    width: day.width  
-    height: day.height 
+    width: day.width
+    height: day.height
     x: 100
     y: 100
 
     StyledText {
+        id: day
         y: -60
         textFormat: Text.RichText
         font.letterSpacing: -13
         animate: true
-        id: day
-        text: "<b><big>" +Time.dayName+  "</b></big>"
+        text: "<b><big>" + Time.dayName + "</b></big>"
         color: Colors.inverse_surface
         font.family: Appearence.font.family.bebas
         font.pixelSize: 200
@@ -27,26 +27,26 @@ Rectangle {
         font.weight: 900
     }
     StyledText {
+        id: text
         x: 10
         y: 140
         textFormat: Text.RichText
         font.letterSpacing: -10
         animate: true
-        id: text
         font.weight: 900
-        text: "<b><big>" + Time.timeWidget  + "</b></big>"
+        text: "<b><big>" + Time.timeWidget + "</b></big>"
         color: Colors.primary
         font.family: Appearence.font.family.bebas
         font.pixelSize: 120
         font.bold: true
     }
     StyledText {
+        id: day_month
         x: 230
         y: 160
         textFormat: Text.RichText
-        font.letterSpacing:-2 
+        font.letterSpacing: -2
         animate: true
-        id: day_month
         font.weight: 900
         text: "<b><big>" + Time.month + "</b></big>"
         color: Colors.tertiary
@@ -54,7 +54,4 @@ Rectangle {
         font.pixelSize: 60
         font.bold: true
     }
-
 }
-
-
