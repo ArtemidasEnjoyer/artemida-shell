@@ -24,9 +24,10 @@ dependency
   - `matugen`   for colors (i know about built in color function in quickshell, but i prefer to use matugen)
 
 
-##Preview##
-####FULL DESKTOP####
+*Preview*
+***FULL DESKTOP***
 ![image](Preview/full_desktop.png)
-####BAR PREWIEW####
+***BAR PREWIEW***
 ![image](Preview/transparent_bar.png)
+
 
