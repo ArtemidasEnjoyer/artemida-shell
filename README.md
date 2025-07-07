@@ -18,15 +18,15 @@ for another distribution idk
 
 dependency
 
-  - `jq`  for weather
+  - `jq`  for weather (i'm to lazy for rewriting it in javascript qml now)
   - `hyprland`  window manager
   - `mpvpaper`  for live wallpaper
   - `matugen`   for colors (i know about built in color function in quickshell, but i prefer to use matugen)
 
 
-**Preview**
-
-
-![image](Preview/preview_of_bar.png)
+##Preview##
+####FULL DESKTOP####
+![image](Preview/full_desktop.png)
+####BAR PREWIEW####
 ![image](Preview/transparent_bar.png)
 
