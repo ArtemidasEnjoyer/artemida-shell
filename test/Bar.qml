@@ -12,7 +12,7 @@ Scope {
             id: bar
             property var modelData
             screen: modelData
-            color: Colors.surface
+            color:Colors.fluidBack
 
             WlrLayershell.namespace: "bar"
 

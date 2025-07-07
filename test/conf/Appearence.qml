@@ -38,6 +38,9 @@ Singleton {
         readonly property string mono: "JetBraimsMono Nerd Font"
         readonly property string propo: "JetBrainsMono Nerd Font Propo"
         readonly property string bebas: "Bebas Neue"
+        readonly property string oswald: "Oswald SemiBold"
+        readonly property string anton: "Antonio Bold"
+        readonly property string pixel: "Press Start 2P"
     }
 
     component FontSize: QtObject {

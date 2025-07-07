@@ -6,106 +6,106 @@ import QtQuick
 Singleton {
   id: root
 
-    property string fluidBack: "#1b124980"
+    property string fluidBack: "#8015130c"
 
-    property string background: "#141318"
+    property string background: "#15130c"
 
     property string error: "#ffb4ab"
 
     property string error_container: "#93000a"
 
-    property string inverse_on_surface: "#313036"
+    property string inverse_on_surface: "#333027"
 
-    property string inverse_primary: "#5e5791"
+    property string inverse_primary: "#6b5e10"
 
-    property string inverse_surface: "#e5e1e9"
+    property string inverse_surface: "#e8e2d4"
 
-    property string on_background: "#e5e1e9"
+    property string on_background: "#e8e2d4"
 
     property string on_error: "#690005"
 
     property string on_error_container: "#ffdad6"
 
-    property string on_primary: "#30285f"
+    property string on_primary: "#383000"
 
-    property string on_primary_container: "#e5deff"
+    property string on_primary_container: "#f6e388"
 
-    property string on_primary_fixed: "#1b1249"
+    property string on_primary_fixed: "#211b00"
 
-    property string on_primary_fixed_variant: "#473f77"
+    property string on_primary_fixed_variant: "#524700"
 
-    property string on_secondary: "#312e41"
+    property string on_secondary: "#363016"
 
-    property string on_secondary_container: "#e5dff9"
+    property string on_secondary_container: "#ede3bc"
 
-    property string on_secondary_fixed: "#1c192b"
+    property string on_secondary_fixed: "#201c04"
 
-    property string on_secondary_fixed_variant: "#474459"
+    property string on_secondary_fixed_variant: "#4d472b"
 
-    property string on_surface: "#e5e1e9"
+    property string on_surface: "#e8e2d4"
 
-    property string on_surface_variant: "#c9c5d0"
+    property string on_surface_variant: "#ccc6b4"
 
-    property string on_tertiary: "#482536"
+    property string on_tertiary: "#133724"
 
-    property string on_tertiary_container: "#ffd8e7"
+    property string on_tertiary_container: "#c4ecd0"
 
-    property string on_tertiary_fixed: "#301121"
+    property string on_tertiary_fixed: "#002111"
 
-    property string on_tertiary_fixed_variant: "#613b4d"
+    property string on_tertiary_fixed_variant: "#2b4e39"
 
-    property string outline: "#928f99"
+    property string outline: "#969180"
 
-    property string outline_variant: "#48454f"
+    property string outline_variant: "#4a4739"
 
-    property string primary: "#c8bfff"
+    property string primary: "#d9c76f"
 
-    property string primary_container: "#473f77"
+    property string primary_container: "#524700"
 
-    property string primary_fixed: "#e5deff"
+    property string primary_fixed: "#f6e388"
 
-    property string primary_fixed_dim: "#c8bfff"
+    property string primary_fixed_dim: "#d9c76f"
 
     property string scrim: "#000000"
 
-    property string secondary: "#c9c3dc"
+    property string secondary: "#d0c7a2"
 
-    property string secondary_container: "#474459"
+    property string secondary_container: "#4d472b"
 
-    property string secondary_fixed: "#e5dff9"
+    property string secondary_fixed: "#ede3bc"
 
-    property string secondary_fixed_dim: "#c9c3dc"
+    property string secondary_fixed_dim: "#d0c7a2"
 
     property string shadow: "#000000"
 
-    property string source_color: "#595479"
+    property string source_color: "#e2d078"
 
-    property string surface: "#141318"
+    property string surface: "#15130c"
 
-    property string surface_bright: "#3a383e"
+    property string surface_bright: "#3c3930"
 
-    property string surface_container: "#201f25"
+    property string surface_container: "#222017"
 
-    property string surface_container_high: "#2a292f"
+    property string surface_container_high: "#2c2a21"
 
-    property string surface_container_highest: "#35343a"
+    property string surface_container_highest: "#37352b"
 
-    property string surface_container_low: "#1c1b20"
+    property string surface_container_low: "#1e1c13"
 
-    property string surface_container_lowest: "#0e0d13"
+    property string surface_container_lowest: "#100e07"
 
-    property string surface_dim: "#141318"
+    property string surface_dim: "#15130c"
 
-    property string surface_tint: "#c8bfff"
+    property string surface_tint: "#d9c76f"
 
-    property string surface_variant: "#48454f"
+    property string surface_variant: "#4a4739"
 
-    property string tertiary: "#ecb8ce"
+    property string tertiary: "#a8d0b4"
 
-    property string tertiary_container: "#613b4d"
+    property string tertiary_container: "#2b4e39"
 
-    property string tertiary_fixed: "#ffd8e7"
+    property string tertiary_fixed: "#c4ecd0"
 
-    property string tertiary_fixed_dim: "#ecb8ce"
+    property string tertiary_fixed_dim: "#a8d0b4"
 
 }
