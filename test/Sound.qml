@@ -14,6 +14,7 @@ BarBlock {
 
     MouseArea {
             anchors.fill: parent
+            id: mouseArea
             onClicked: Hyprland.dispatch(`exec pavucontrol`)
             onWheel: wheel => {
                 if (wheel.angleDelta.y > 0) {
@@ -25,6 +26,7 @@ BarBlock {
                     // console.log("volume decrease")
                 }
             }
+
         }
 
 
