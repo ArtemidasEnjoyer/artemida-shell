@@ -39,7 +39,7 @@ BarBlock {
                     
                     gradient: Gradient {
                         GradientStop { position: 0.0; color: Colors.primary }
-                        GradientStop { position: 1.0; color: Colors.tertiary }
+                        GradientStop { position: 1.0; color: Colors.secondary}
                     }
                     
                     Behavior on opacity {

@@ -7,10 +7,13 @@ BarBlock {
   height: clock.height
   anchors.horizontalCenter: parent.horizontalCenter
   MouseArea {
+    id: mouseArea
     anchors.fill: parent
     acceptedButtons: Qt.LeftButton 
     onClicked: Hyprland.dispatch(`exec gnome-calendar`)
     }
+    
+
 
     StyledText {
         animate: true
